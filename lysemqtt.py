@@ -106,5 +106,5 @@ print("connecting to broker ", broker)
 client.connect(broker)  # connect
 print("subscribing ")
 client.subscribe("sensors/lyse-test-01")  # subscribe
-client.loop_forever()  # getting an error when using this command...
+client.loop_forever()
 
